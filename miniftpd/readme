@@ -1,0 +1,11 @@
+【项目名称】
+	linux环境下，ftp文件传输系统
+
+【项目环境】
+	拥有gcc工具的环境即可
+
+【项目运行】
+	服务器：
+		修改配置文件miniftpd.conf中的IP地址和Port，其中IP地址为本机IP（linux环境）； 
+	客户端：
+		使用filezilia/leapFTP等文件传输工具，连接到该IP地址和端口号即可（通常在本机windows环境下连接）。
